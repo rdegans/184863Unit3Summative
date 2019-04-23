@@ -1,0 +1,14 @@
+﻿<Window x:Class="_184863Unit3Summative.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184863Unit3Summative"
+        mc:Ignorable="d"
+        Title="Unit 3 Summative - Scrabble - Riley de Gans" Height="450" Width="800">
+    <StackPanel>
+        <TextBox x:Name="txtInput" Text="Enter your tiles here"/>
+        <TextBlock x:Name="txtOutput" Text="Your output will print here" TextWrapping="WrapWithOverflow"/>
+        <Button x:Name="btnPlay" Content="Click to find the best words" Click="BtnPlay_Click"/>
+    </StackPanel>
+</Window>
