@@ -113,7 +113,6 @@ namespace _184863Unit3Summative
             InitializeComponent();
             ScrabbleGame sg = new ScrabbleGame();
             tiles = sg.drawInitialTiles();
-            tiles = "ACK TLR";
             MessageBox.Show(tiles, "Your Tiles:");
             while (tiles.IndexOf(" ") != -1)
             {
