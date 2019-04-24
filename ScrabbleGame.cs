@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Name: Riley de Gans
+ * Date: April 22nd, 2019
+ * Description:  A program that cheats at scrabble using an online dictionary and some inefficient logic.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

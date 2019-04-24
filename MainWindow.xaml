@@ -6,9 +6,11 @@
         xmlns:local="clr-namespace:_184863Unit3Summative"
         mc:Ignorable="d"
         Title="Unit 3 Summative - Scrabble - Riley de Gans" Height="450" Width="800">
-    <StackPanel>
-        <TextBox x:Name="txtInput" Text="Enter your tiles here"/>
-        <TextBlock x:Name="txtOutput" Text="Your output will print here" TextWrapping="WrapWithOverflow"/>
-        <Button x:Name="btnPlay" Content="Click to find the best words" Click="BtnPlay_Click"/>
-    </StackPanel>
+    <ScrollViewer>
+        <StackPanel>
+            <TextBox x:Name="txtInput" Text="Enter your tiles here"/>
+            <TextBlock x:Name="txtOutput" Text="Your output will print here" TextWrapping="WrapWithOverflow" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+            <Button x:Name="btnPlay" Content="Click to find the best words"/>
+        </StackPanel>
+    </ScrollViewer>
 </Window>
